@@ -37,15 +37,26 @@ import 'package:custom_context_menu/custom_context_menu.dart';
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
+Use the `CustomContextMenu` widget inside your `TextField`'s `contextMenuBuilder` property:
 ```dart
-const like = 'sample';
+TextField(
+  enableInteractiveSelection: true,
+  contextMenuBuilder: (BuildContext context, EditableTextState editableTextState) {
+    return CustomContextMenu(
+      editableTextState: editableTextState,
+      backgroundColor: Colors.red,
+      disabledColor: Colors.grey,
+      borderRadius: 6.0,
+      buttonPadding: 6.0,
+      );
+  }
+);
 ```
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+This is an on-going project. Looking forward for any contribution and help. New features are coming soon.

@@ -13,6 +13,8 @@ and the Flutter guide for
 
 A custom implementation of the text selection toolbar in Flutter with support for adding custom backgrounds, paddings and border radius to Cupertino buttons.
 
+A text selection toolbar or a context menu, is the little menu that pops-up when the user long presses the text field or selects a piece of text from that text field. This menu gives a user the ability to manipulate an editable text. Customizing it according to your app appearence, could improve your design.
+
 ## Features
 
 With this package, you can customize the various different appearence of a context menu for your `TextField`.
@@ -23,8 +25,11 @@ With this package, you can customize the various different appearence of a conte
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the `custom_context_menu` package to your `pubspec.yaml` file:
+```
+dependencies:
+  custom_context_menu: ^1.0.0
+```
 
 ## Usage
 

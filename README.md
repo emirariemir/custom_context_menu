@@ -11,12 +11,15 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A custom implementation of the text selection toolbar in Flutter with support for adding custom backgrounds, paddings and border radius to Cupertino buttons.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+With this package, you can customize the various different appearence of a context menu for your `TextField`.
+1. Change the background color of a button, by using the `backgroundColor` property
+2. Change the background color of a disabled button, by using the `disabledColor` property
+3. Change the border radius with `borderRadius` property
+4. Change the padding of a button to make it look bigger, by using the `buttonPadding` property
 
 ## Getting started
 

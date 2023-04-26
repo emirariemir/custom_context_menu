@@ -26,7 +26,7 @@ With this package, you can customize the various different appearence of a conte
 ## Getting started
 
 Add the `custom_context_menu` package to your `pubspec.yaml` file:
-```
+```yaml
 dependencies:
   custom_context_menu: ^1.0.0
 ```

@@ -1,3 +1,7 @@
 ## 0.1.0
 
-* TODO: Describe initial release.
+* First release
+
+## 0.1.1
+
+* Add CCM logo

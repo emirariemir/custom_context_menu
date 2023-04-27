@@ -1,9 +1,7 @@
 name: custom_context_menu
 description: A context menu component for Flutter that allows you to create custom context menus with ease.
-author: leopanic13 <emirari@yahoo.com>
 version: 0.1.0
 homepage: https://github.com/emirariemir/custom_context_menu
-license: MIT
 
 
 environment:

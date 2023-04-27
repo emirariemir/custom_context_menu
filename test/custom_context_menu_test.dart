@@ -10,6 +10,7 @@ void main() {
       disabledColor: Colors.grey,
       borderRadius: 8.0,
       buttonPadding: 16.0,
+      textStyle: const TextStyle(color: Colors.white),
     );
 
     await tester.pumpWidget(widget);

@@ -11,6 +11,7 @@ class CustomContextMenu extends StatelessWidget {
     required this.disabledColor,
     required this.borderRadius,
     required this.buttonPadding,
+    required this.textStyle,
   });
 
   final EditableTextState editableTextState;
@@ -18,6 +19,7 @@ class CustomContextMenu extends StatelessWidget {
   final Color disabledColor;
   final double borderRadius;
   final double buttonPadding;
+  final TextStyle textStyle;
 
   @override
   Widget build(BuildContext context) {
@@ -35,6 +37,7 @@ class CustomContextMenu extends StatelessWidget {
             padding: EdgeInsets.all(buttonPadding),
             child: Text(
               CupertinoTextSelectionToolbarButton.getButtonLabel(context, buttonItem),
+              style: textStyle,
             ),
           ),
         );

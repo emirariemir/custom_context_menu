@@ -11,6 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+<img src="ContextMenu@2x.png">
 A custom implementation of the text selection toolbar in Flutter with support for adding custom backgrounds, paddings and border radius to Cupertino buttons.
 
 A text selection toolbar or a context menu, is the little menu that pops-up when the user long presses the text field or selects a piece of text from that text field. This menu gives a user the ability to manipulate an editable text. Customizing it according to your app appearence, could improve your design.
